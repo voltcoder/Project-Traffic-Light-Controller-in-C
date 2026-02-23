@@ -71,4 +71,15 @@ The sequence repeats continuously to simulate a traffic signal.
  Connect the positive terminals of LEDs to the respectives digital output pins in board ,assigned in the code
  Connect the negative terminals of LEDs to the ground
 
- 
+## Learning Outcomes
+- Understanding microcontroller pin configuration
+- Controlling hardware using C
+- Designing simple embedded systems
+- Implementing sequential control logic
+
+---
+
+Developed by Swat  
+Electrical Engineering Graduate
+
+
