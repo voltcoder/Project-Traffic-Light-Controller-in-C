@@ -1,2 +1,9 @@
-avr-gcc -mmcu=atmega328p -Os main.c -o main.elf
-avr-objcopy -O ihex main.elf main.hex
+avr-gcc -mmcu=atmega328p -Os 
+main.c -o 
+main.elf
+avr-objcopy -O 
+ihex 
+main.elf
+main.hex
+
+Do it as it may suit you
