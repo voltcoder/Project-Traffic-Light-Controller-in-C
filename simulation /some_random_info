@@ -1,0 +1,29 @@
+What This Project Does
+
+Simulates a 3-way traffic light:
+
+Red → 5 seconds
+Yellow → 2 seconds
+Green → 5 seconds
+Loop forever
+
+---
+
+Proteus Components
+
+Add:
+ATmega328P (not Arduino board)
+3 LEDs (Red, Yellow, Green)
+3 × 220Ω resistors
+16 MHz crystal
+2 × 22pF capacitors
+5V supply
+
+---
+
+What’s Happening Here
+
+DDRD → Sets PORTD pins as output
+PORTD → Controls LED state
+_delay_ms() → Software delay
+Bit shifting → Controls specific pins
